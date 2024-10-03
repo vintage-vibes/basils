@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mediaQuery.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">BASIL'S AGENCY</div>
+        <div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    </nav>
+    <nav class="hamburger">
+        <div class="logo">BASIL'S AGENCY</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toogleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#" onclick="toogleMenu()"> About </a></li>
+                <li><a href="#" onclick="toogleMenu()">Experience </a></li>
+                <li><a href="#" onclick="toogleMenu()">Projects  </a></li>
+                <li><a href="#" onclick="toogleMenu()">Contact </a></li>
+        </div>
+        </div>
+    </nav>
+        <section class="profile">
+            <div class="section_pic-container">
+                <img src="assets/profile-pic.png" alt="john">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">HELLO I'M </p>
+                    <h1>JOHN DOE </h1>
+                        <p class="section_text_p2">
+                             MARKETING AGENCY
+                        </p> 
+                <div class="btn_container">
+                    <button class="btn btn-color-2"
+                        onclick="window.open('./assets/resume-example.pdf')">
+                            Download  CV
+                    </button>
+                    <button class="btn btn-color-1"
+                        onclick="location.href='./Contact'">
+                             Contact
+                    </button>
+                </div>        
+            <div class="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile"
+                class="icon" onclick="location.href='https'"/>
+                    
+                
+                <img src="./assets/github.png" alt="my linkedin profile"
+                 class="icon" onclick="location.href='www.google.com'" />
+                    
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <p class="section_text_p1">
+            GET TO KNOW MORE 
+        </p>
+        <h1 class="title">
+            ABOUT ME 
+        </h1>
+        <div class="section_container">
+            <div class="section_pic_container">
+                <img src="./assets/about-pic.png" alt="profile" class="about-pic">
+
+            </div>
+            <div class="about_details_container">
+                <div class="about_containers">
+                    <div class="details_container">
+                        <img src="./assets/experience.png" alt="experince icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>1 year <br>MARKETING AGENCY</p>    
+                    </div>
+                    <div class="details_container">
+                        <img src="./assets/education.png" alt="Education" class="icon">
+                    <h1>Education</h1>
+                    <p>B.COM BUSINESS ADMINISTRATION<br>BCOM LOGISTICS AND SUPPLY CHAIN MANAGEMENT</p>
+                    </div>  
+                </div> 
+                <div class="text_container">
+                    <p>
+                        detail-oriented and highly motivated professional with 5+ years of experience in [Your Industry/Field]. Proven track record in [specific skill or achievement], with a strong focus on [mention key expertise areas relevant to the job]. Adept at managing multiple tasks, solving problems creatively, and delivering results in a fast-paced environment. Seeking to leverage expertise in [mention role you're applying for] to contribute to the success of [Company Name].
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow icon " onclick="location.href='./#experience'" class=" arrow icon">
+    </section>
+    <section class="experience" id="experience">
+        <p class="section_text_p1">Explore my </p>
+        <h1 class="title">
+            Experience
+        </h1>
+        <div class="experience_details_container">
+            <div class="about_containers">
+                <div class="details_container">
+                    <h2 class="experience_sub_title">MARKETING AGENCY </h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>BASIC</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>NODE.JS</h3>
+                                <p>INTERMEDIATE</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>EXPRESS.JS</h3>
+                                <p>INTERMEDIATE</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>GIT</h3>
+                                <p>INTERMEDIATE</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>INTERMINDIATE</p>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details_container">
+                    <h2 class="experience_sub_title">MARKETING AGENCY </h2>
+                    <div class="article_container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>BASIC</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>INTERMINDIATE</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>TYPESCRIPT</h3>
+                                <p>BASIC</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="experience icon " class="icon">
+                            <div>
+                                <h3>MATERIAL UI</h3>
+                                <p>INTERMEDIATE</p>
+                            </div>
+                        </article>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="icon arrow" class="icon arrow" onclick="location.href='./projects'">
+
+    </section>
+    <section class="projects" id="projects">
+        <p class="section_text_p1">BROWSE MY RECENT </p>
+        <h1 class="title">PROJECTS</h1>
+        <div class="experience_details_container">
+            <div class="details_container color_container">
+                <div class="article_container">
+                    <img src="assets/project-3.png" alt="projects" class="project_img">
+                </div>
+                <h2 class="experience_sub_title project_title">Project THREE</h2>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'">GITHUB</button>
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'"> LIVE DEMO</button>
+                </div>
+            </div>
+            <div class="details_container color_container">
+                <div class="article_container">
+                    <img src="assets/project-2.png" alt="" class="project_img">
+                </div>
+                <h2 class="experience_sub_title project_title">PROJECT TWO</h2>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'">GITHUB</button>
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'"> LIVE DEMO</button>
+                </div>
+            </div>
+            <div class="details_container color_container">
+                <div class="article_container">
+                    <img src="assets/project-1.png" alt="" class="project_img" >
+                </div>
+                <h2 class="experience_sub_title project_title">Project ONE</h2>
+                <div class="btn_container">
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'">GITHUB</button>
+                    <button class="btn btn-color-2 project_btn " onclick="location.href='https://github.com/'"> LIVE DEMO</button>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="arrow icon"
+        class="icon arrow" onclick="location.href='./project'">
+    </section>
+    <section class="contact" id="contact">
+        <p class="section_text_p1">
+            get in touch
+        </p>
+        <h1 class="title">
+            Contact me
+        </h1>
+        <div class="contact_info_upper_container">
+            <div class="contact_info_container">
+                <img src="assets/email.png" alt="email icon" class="icon contact_icon email_icon">
+                <p><a href="mailtoexampleemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+       
+        
+            <div class="contact_info_container">
+                <img src="assets/linkedin.png" alt="linkedin icon" class="icon contact_icon">
+                <p><a href="https://www.linkedin.com">Linkedin</a></p>
+            </div>
+        </div> 
+    </section>
+    <footer>
+        <nav>
+            <nav class="navbar">
+              
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>COPYRIGHT &#169; 2024 BASILS AGENCY,ALL RIGHTS RESERVED </p>
+    </footer>
+
+</body>
+<script src="index.js"></script>
+</html>
