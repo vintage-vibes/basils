@@ -1,128 +1,134 @@
 @media screen and (max-width: 1400px){
+    body, html { 
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        height:90vh;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+     }
     .profile{
         height: 83vh;
-        margin-bottom: 6rem;
+        margin-bottom: 5rem;
     }
     .about_containers{
         flex-wrap: wrap;
+        max-width: 80vw;
+        margin: 0 auto;
     }
     .hamburger{
-        display: flex;
+         display: flex;
             justify-content: space-around;
             align-items: center;
             height: 17vh; /* Same height as navbar */
-            padding: 0 20px; /* Same padding as navbar */
+            padding: 0 10px; /* Same padding as navbar */
             width: 100%; /* Make it full-width */
-        
+        display: none;
     }
+    
+  
 }
+   
 @media screen and (max-width: 1200px){
+    .hamburger{
+         display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 17vh; /* Same height as navbar */
+            padding: 0 5px; /* Same padding as navbar */
+            width: 100%; /* Make it full-width */
+    }
+  
+
+    .logo{
+        height: 20vh; /* Adjust for desktop */
+        width: auto;
+    }
     .navbar{
         display: none;
     }
-    .hamburger{
-        display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 17vh; /* Same height as navbar */
-            padding: 0 20px; /* Same padding as navbar */
-            width: 100%; /* Make it full-width */
-        
-    }
+
     .experience , .experience_details_container{
         margin-top: 2rem;
+    
     }
-    .profile,.section_container{
+    .experience_details_container{
+       
+        margin: 0 auto;
+    }
+    
+    .profile, .section_container{
         display: block;
     }
     .arrow{
         display:none;
     }
-    section,.section_container{
+    section, .section_container{
         height: fit-content;
     }
     section{
         margin:0.5% ;
     }
-    .section_pic_container{
-        width: 275px;
+    .section_pic-container img,.section_pic_container img{
+       
+        max-width:80vw ;
         height: auto;
-        margin: 0 auto 2rem;
+       
     }
+   
     .about_containers{
         margin-top: 0;
     }
 }
-@media screen and (max-width: 600px){
-
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .section_container,
-    .experience_details_container,
-    .details_container{
-        display: flex;
-         flex-direction: column;
-         align-items: center;
-         text-align: center;
-    }
+@media screen and (max-width: 800px){
+    
     .contact,footer{
-        height: auto
+        height: 40vh;
     }
     .profile{
         height: 83vh;
         margin-bottom: 0;
     }
+    
     article{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     footer nav{
         margin-bottom: 2rem;
         height: fit-content;
     }
-    .about_container, .contact_info_upper_container{
-        display: flex;
-        flex-direction: column;
-        gap:2rem;
-    }
-    .btn_container{
-        
+    .about_containers, .contact_info_upper_container,.article_container .btn_container{
+        flex-wrap: wrap;
+        gap:1.5rem;
     }
     .contact_info_container{
         margin: 0;
     }
     .contact_info_container p,.navbar li a{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .experience_sub_title{
         font-size: 1rem;
     }
     .logo{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .navbar ul{
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
-    .section_pic-container img,
+    
     .about-pic,
     .project_img {
         width: 100%;
         justify-content: center;
     }
-    .section_pic_container{
-        display: flex;
-        width: 40vw;
-        height: auto;
-        justify-content: center;
-    }
-    .section_text_pic{
+    
+   
+    .section_text_p2 {
         font-size: 1.25rem;
     }
     .title{
@@ -131,9 +137,7 @@
     .text_container{
         text-align: justify;
     }
-    .about_containers{
-        display: flex;
-        flex-direction: column;
-        gap: 2.1rem;
-    }
+    
 }
+   
+    
